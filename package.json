@@ -1,0 +1,36 @@
+{
+  "name": "qr-lab",
+  "private": true,
+  "version": "1.0.0",
+  "description": "QR LAB — Beyond the Squares. An interactive educational experience exploring how QR codes work.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "oxlint",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.9",
+    "@react-three/fiber": "^9.8.2",
+    "@tailwindcss/vite": "^4.3.5",
+    "file-saver": "^2.0.5",
+    "firebase": "^13.4.0",
+    "framer-motion": "^14.14.0",
+    "html-to-image": "^1.11.13",
+    "lucide-react": "^1.77.0",
+    "qrcode": "^1.5.4",
+    "qrcode-generator": "^2.0.4",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "tailwindcss": "^4.3.5",
+    "three": "^0.187.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "oxlint": "^1.90.0",
+    "vite": "^8.3.6"
+  }
+}
